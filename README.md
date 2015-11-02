@@ -9,3 +9,7 @@ This is a challenge för your group:
 * Commit changes 
 * Sync 
 
+
+1. Item 1
+2. Item 2
+3. Item 3
