@@ -10,6 +10,6 @@ This is a challenge för your group:
 * Sync 
 
 
-1. Item 1
-2. Item 2
-3. Item 3
+1. Fork this repository.
+2. Add all group members as contributers (To the left)
+3. Open your local GitHub client.
