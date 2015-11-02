@@ -7,5 +7,5 @@ This is a challenge för your group:
 * Find and clone the repository
 * Work on "your" tab.
 * Commit changes 
-* Sync //Repeat from 6 
+* Sync 
 
