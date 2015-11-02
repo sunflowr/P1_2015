@@ -9,3 +9,4 @@ This is a challenge för your group:
 5. Work on "your" tab.
 6. Commit changes
 7. Sync (Pull from remote)
+8. Go back to 5.
