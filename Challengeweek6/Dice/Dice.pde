@@ -1,4 +1,5 @@
-/* Make a working Dice that changes when clicked and with nice graphics*/
+/* Make a working Dice that changes when clicked and with nice graphics
+Either use Processing 2D primitives like elipse rect etc or create your own graphics.*/
 
 int lastResult = 2;
 PImage defaultlImage;
