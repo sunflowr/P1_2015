@@ -1,5 +1,4 @@
-/*
-Draw a Chess board*/
+/*Draw a Chess board*/
 
 color backgroundColor = color(0,0,200);
 
