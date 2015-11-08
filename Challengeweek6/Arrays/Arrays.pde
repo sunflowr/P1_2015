@@ -13,7 +13,7 @@ void setup(){
 
 void draw(){
     quoteToDraw = getQuote();
-    //Print the qoute on the screen using PFont
+    //Print the qoute on the screen using PFont.
 }
 
 //Methods
@@ -26,6 +26,6 @@ void addQuotes(){
 
 //Selects a random Qoute from myQuotes.
 String getQuote(){
-  ///Write code to select a random quote
+  //Write code to select a random quote
   return "Test";
 }
