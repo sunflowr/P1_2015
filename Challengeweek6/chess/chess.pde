@@ -2,7 +2,7 @@
 color backgroundColor = color(0,0,200);
 
 void setup(){
-  size(800,800); //Shoud work for any square window
+  size(800,800); //Should work for any square window
   drawBoard();
 }
 
