@@ -10,7 +10,7 @@ int numberOfWords(String word){
   String lower = builder.toString().toLowerCase();
   word = word.toLowerCase();
   
-  String[] words = splitTokens(lower, " \t\r\n.?!,;-_()\"*\'");
+  String[] words = splitTokens(lower, " \t\f\r\n.?!,;-_(){}[]\"*\'");
   for(int i = 0; i < words.length; ++i)
   {
     if(words[i].equals(word))

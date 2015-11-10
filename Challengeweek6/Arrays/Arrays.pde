@@ -4,8 +4,9 @@ String[] myQuotes = new String[10];
 String quoteToDraw;
 
 void setup(){
-  size(400,600); //Use fullscreen when finished
-  frameRate(4);  //Run this slow.....
+  //size(400,600); //Use fullscreen when finished
+  fullScreen();
+  frameRate(1);  //Run this slow.....
   pFont = createFont("Serif", 32);
   textFont(pFont);
   addQuotes();
@@ -15,7 +16,10 @@ void draw(){
   background(0);
     quoteToDraw = getQuote();
     //Print the qoute on the screen using PFont.
-    text(quoteToDraw, 10, 50);
+    
+    // Center text.
+    float textWidth = textWidth(quoteToDraw);
+    text(quoteToDraw, (width / 2) -  (textWidth / 2), (height / 2) - 16);
 }
 
 //Methods
