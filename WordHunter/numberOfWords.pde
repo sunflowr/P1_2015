@@ -1,7 +1,6 @@
 /**Counts the number of words s in the text*/
 int numberOfWords(String word){
   int number = 0;
-<<<<<<< HEAD
   String lower = oneString.toLowerCase();
   word = word.toLowerCase();
 
@@ -12,8 +11,5 @@ int numberOfWords(String word){
     a = lower.indexOf(word, a + 1);
   }
 
-=======
-  //indexOf()
->>>>>>> MahApp/master
   return number;
 }
