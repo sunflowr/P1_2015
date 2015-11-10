@@ -1,7 +1,13 @@
 /**Counts the number of words s in the text*/
 int numberOfWords(String word){
   int number = 0;
-  String lower = oneString.toLowerCase();
+
+  // Make string in to one line and lowercase for simpler processing.
+  StringBuilder builder = new StringBuilder();
+  for (int i = 0; i < lines.length; i++){
+     builder.append(lines[i] + " "); // Add a whitespace so we don't combine words.
+  }
+  String lower = builder.toString().toLowerCase();
   word = word.toLowerCase();
   
   String[] words = splitTokens(lower, " \t\r\n.?!,;-_()\"*\'");
@@ -9,11 +15,9 @@ int numberOfWords(String word){
   {
     if(words[i].equals(word))
     {
-      println(word);
       number++;
     }
   }
-  println(number);
   
   /*Old version - count words within words.
   int a = lower.indexOf(word);
