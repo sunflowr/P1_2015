@@ -2,12 +2,12 @@
 Either use Processing 2D primitives like elipse rect etc or create your own graphics for the Dice.*/
 
 int lastResult = 2;
-PImage defaultlImage;
+//PImage defaultlImage;
 
 void setup(){
   size(400,400);
   //If you use images load them here for better performance
-  defaultlImage = loadImage("default.jpg");
+  //defaultlImage = loadImage("default.jpg");
 }
 
 void draw(){
@@ -24,7 +24,7 @@ void draw(){
     fill(255, 255, 255);
     ellipse(25, 25, 5, 5);
     ellipse(40, 40, 5, 5);
-    image(defaultlImage,100,100);
+    //image(defaultlImage,100,100);
   }else if(lastResult == 3){
     //Show number 3
     fill(255, 0, 0);
@@ -33,7 +33,7 @@ void draw(){
     ellipse(25, 25, 5, 5);
     ellipse(35, 35, 5, 5);
     ellipse(45, 45, 5, 5);
-    image(defaultlImage,100,100);
+    //image(defaultlImage,100,100);
   }else if(lastResult == 4){
     //Show number 4
     fill(255, 0, 0);
@@ -43,7 +43,7 @@ void draw(){
     ellipse(50, 20, 5, 5);
     ellipse(20, 50, 5, 5);
     ellipse(50, 50, 5, 5);
-    image(defaultlImage,100,100);
+    //image(defaultlImage,100,100);
   }else if(lastResult == 5){
     //Show number 5
     fill(255, 0, 0);
@@ -54,7 +54,7 @@ void draw(){
     ellipse(35, 35, 5, 5);
     ellipse(20, 50, 5, 5);
     ellipse(50, 50, 5, 5);
-    image(defaultlImage,100,100);
+    //image(defaultlImage,100,100);
   }else if(lastResult == 6){
     //Show number 6
     fill(255, 0, 0);
@@ -66,14 +66,14 @@ void draw(){
     ellipse(50, 20, 5, 5);
     ellipse(50, 35, 5, 5);
     ellipse(50, 50, 5, 5);
-    image(defaultlImage,100,100);
+    //image(defaultlImage,100,100);
   }
 }
 
 /**Method that creates a new random number every time it is called*/
 void getNewNumber(){
   //Add code to get a new random number
-  lastResult = (int)random(6); 
+  lastResult = ((int)random(6)) + 1; // Add 1 as we want it in the range 1-6. 
 }
 
 
